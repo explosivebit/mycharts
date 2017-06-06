@@ -1,7 +1,21 @@
 apiVersion: v1
 entries:
   myapp:
-  - created: 2017-05-17T11:11:17.309870789+07:00
+  - created: 2017-06-06T15:11:50.78267359+03:00
+    description: A Helm chart template for Kubernetes charts repository
+    digest: f2e5b66c5009cc3b9c31ec3b14fd61f238646149278b5e3f6dea0ed47a3bbedd
+    engine: gotpl
+    home: https://k8s.community/
+    maintainers:
+    - email: k8s.community@gmail.com
+      name: Kubernetes Community
+    name: myapp
+    sources:
+    - https://github.com/explosivebit/myapp
+    urls:
+    - https://explosivebit.github.io/mycharts/myapp-0.0.6.tgz
+    version: 0.0.6
+  - created: 2017-06-06T15:11:50.782309428+03:00
     description: A Helm chart template for Kubernetes charts repository
     digest: f18546f1b3708ed4b57c58662d0f220b2eead136b10a71019a345e9fbad0d7ba
     engine: gotpl
@@ -13,6 +27,6 @@ entries:
     sources:
     - https://github.com/k8s-community/myapp
     urls:
-    - https://k8s-community.github.io/mycharts/myapp-0.0.5.tgz
+    - https://explosivebit.github.io/mycharts/myapp-0.0.5.tgz
     version: 0.0.5
-generated: 2017-05-17T11:11:17.308000297+07:00
+generated: 2017-06-06T15:11:50.781803572+03:00
